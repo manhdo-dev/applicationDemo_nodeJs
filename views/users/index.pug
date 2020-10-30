@@ -1,0 +1,31 @@
+extends ../layouts/header.pug
+
+block content
+
+    h1(class="text-center") Users
+
+    form(action="/users/search", method="GET", class="form-inline")
+        div(class="col-md-8")
+            a(href="/users/create", class="btn btn-warning") New
+        div(class="col-md-4")
+            input(type="text", name="q", class="form-control")
+            span &nbsp;
+            button(class="btn btn-primary") Search
+    
+    table.table
+        thead
+            tr
+                th(scope="col") Name
+                th(scope="col") Email
+                th(scope="col") Address
+                th(scope="col") Action
+        tbody
+        each user in users
+            tr
+                td= user.name
+                td= user.email
+                td= user.address
+                td
+                    a(href="/users/" +  user.id) View
+
+                    

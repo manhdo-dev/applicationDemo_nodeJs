@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Do Duc Manh",
+      "email": "manhmen1998@gmail.com",
+      "address": "24 Lê Trọng Tấn"
+    },
+    {
+      "id": "2",
+      "name": "Tran Thi Nga",
+      "email": "ngatranthtb17@gmail.com",
+      "address": "100 Cầu Giấy "
+    },
+    {
+      "id": "3",
+      "name": "Do Duc Cuong",
+      "email": "duccuongdo0@gmail.com",
+      "address": "100 Cầu Giấy"
+    },
+    {
+      "name": "Binh Minh",
+      "email": "binhminh1@gmail.com",
+      "address": "US",
+      "id": "Hsr0Fk_0c"
+    },
+    {
+      "name": "Taylor",
+      "email": "taylor1@gmail.com",
+      "address": "California",
+      "id": "5mkVOoOqf"
+    }
+  ]
+}
