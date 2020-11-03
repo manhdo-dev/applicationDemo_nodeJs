@@ -1,34 +1,25 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "Do Duc Manh",
+      "id": "42dfbwrK",
+      "name": "Đỗ Đức Mạnh",
       "email": "manhmen1998@gmail.com",
-      "address": "24 Lê Trọng Tấn"
+      "address": "24 Lê Trọng Tấn",
+      "password": "e10adc3949ba59abbe56e057f20f883e"
     },
     {
-      "id": "2",
-      "name": "Tran Thi Nga",
+      "name": "Trần Thị Nga",
       "email": "ngatranthtb17@gmail.com",
-      "address": "100 Cầu Giấy "
+      "address": "100 Khâm  Thiên",
+      "id": "4KbywOjPG",
+      "password": "e10adc3949ba59abbe56e057f20f883e"
     },
     {
-      "id": "3",
-      "name": "Do Duc Cuong",
-      "email": "duccuongdo0@gmail.com",
-      "address": "100 Cầu Giấy"
-    },
-    {
-      "name": "Binh Minh",
-      "email": "binhminh1@gmail.com",
-      "address": "US",
-      "id": "Hsr0Fk_0c"
-    },
-    {
-      "name": "Taylor",
-      "email": "taylor1@gmail.com",
-      "address": "California",
-      "id": "5mkVOoOqf"
+      "name": "Jonn Wick",
+      "email": "json@gmail.com",
+      "address": "100 Cầu Giấy ",
+      "id": "w37RNDvRT",
+      "password": "e10adc3949ba59abbe56e057f20f883e"
     }
   ]
 }

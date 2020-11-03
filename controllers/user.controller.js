@@ -17,6 +17,7 @@ module.exports = {
         })
     },
     create: function(req, res) {
+        //console.log(req.cookies)
         res.render('users/create');
     },
     getOne: function(req, res) {
@@ -29,27 +30,9 @@ module.exports = {
     },
     postCreate: function(req, res) {
         req.body.id = shortid.generate();
-        var errors = [];
 
-        if (!req.body.name) {
-            errors.push('Name is required');
-        }
+        console.log(res.locals); // kế thừa từ res.locals trong middleware
 
-        if (!req.body.email) {
-            errors.push('Email is required');
-        }
-
-        if (!req.body.address) {
-            errors.push('Address is required');
-        }
-
-        if (errors.length) {
-            res.render('users/create', {
-                errors: errors,
-                values: req.body
-            });
-            return;
-        }
         db.get('users').push(req.body).write();
         res.redirect('/users');
     }
