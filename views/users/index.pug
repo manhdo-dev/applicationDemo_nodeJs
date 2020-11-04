@@ -19,9 +19,12 @@ block content
                 th(scope="col") Email
                 th(scope="col") Address
                 th(scope="col") Action
+                th(scope="col") Avatar
         tbody
         each user in users
             tr
+                td
+                    img(src=user.avatar, width="48")
                 td= user.name
                 td= user.email
                 td= user.address
